@@ -22,6 +22,13 @@ Rust + Wasm を活用してこのモデルのアプリケーション開発を�
 
 ---
 
+**検証バーション**
+```bash
+    Wasmedge: 0.13.5
+    llama-chat: 0.2.0
+    llama-api-server: 0.2.1
+```
+
 Step1: [WasmEdge](https://github.com/WasmEdge/WasmEdge)を以下のコマンドに従ってインストール
 
 ```bash
