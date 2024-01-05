@@ -1,4 +1,4 @@
-# CyberAgent製LLM(****CALM2-7B-Chat)の動作チュートリアル****
+# WasmEdge×CALM2-7B-Chat入門ガイド
 
 > [１つのコマンド](https://www.secondstate.io/run-llm/)を実行することで、より簡単に自分のデバイス上で、CALM2-7Bを動かすことができます。このコマンドは、自動でWasmEdge Runtime、モデルファイル、推論用のポータブルWasmアプリに関してダウンロードとインストールを行います。
 > 
