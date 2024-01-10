@@ -20,7 +20,7 @@ Rust + Wasm を活用してこのモデルのアプリケーション開発を�
 
 ## 自分のデバイス上でCALM2-7B-Chatを動かす方法
 
----
+
 
 **検証バーション**
 ```bash
@@ -81,7 +81,7 @@ wasmedge --dir .:. --nn-preload default:GGML:AUTO:calm2-7b-chat.Q4_K_M.gguf llam
 
 ## **CALM2-7B-Chat モデル用の OpenAI 互換 API サービスを作成**
 
----
+
 
 OpenAI 互換 API サービスにより、LLMツールの大規模エコシステムやflows.network、LangChain、LlamaIndex などのエージェント フレームワークと連携することがでます。
 
@@ -118,7 +118,7 @@ curl -X POST http://localhost:8080/v1/chat/completions \
 
 ## 耳寄りな情報(Fun Fact)
 
----
+
 
 WasmEdgeは、12月11日~12日に開催されたCloud Native Days Tokyoの基調講演で[”Wasm is becoming the runtime for LLMs”](https://event.cloudnativedays.jp/cndt2023/talks/2072)という題目で講演を行いました。
 
@@ -129,7 +129,7 @@ WasmEdgeは、12月11日~12日に開催されたCloud Native Days Tokyoの基調
 
 ## **何かあれば相談ください！(Talk to us!)**
 
----
+
 
 [Wasmedge Discord](https://discord.com/invite/U4B5sFTkFc)に参加して、質問や知見を共有してください。このモデルを実行する上で何か質問があれば、[Second-state/llama-utils](https://github.com/second-state/llama-utils/)にアクセスしてissueを立てるか、[Demoの予約](https://code.flows.network/webhook/vvAtEBUk6QMhVVLuw7IU)してください。デバイス上で独自のLLMをお楽しみください！
 
